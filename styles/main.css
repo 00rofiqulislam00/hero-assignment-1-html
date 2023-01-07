@@ -82,7 +82,45 @@
     list-style: none;
 }
 
-.fa-check{
+.fa-check {
     color: green;
     margin-right: 10px;
+}
+
+/* My plans section styles  */
+.plan-header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+}
+
+.plan-wrap{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 230px 130px;
+    
+}
+
+.item-heading{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #151414;
+}
+
+.item-des{
+    font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #737272;
+}
+
+.plan-img{
+    margin-left: 50px;
 }
