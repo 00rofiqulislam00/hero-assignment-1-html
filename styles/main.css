@@ -45,3 +45,44 @@
     border: 0;
     padding: 20px 26px;
 }
+
+/* My failures section styles  */
+
+.failur-section {
+    display: flex;
+    align-items: center;
+    margin: 131px 322px 129px 206px;
+}
+
+.failur-text {
+    margin-left: 87px;
+}
+
+.failur-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.failur-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failur-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    list-style: none;
+}
+
+.fa-check{
+    color: green;
+    margin-right: 10px;
+}
