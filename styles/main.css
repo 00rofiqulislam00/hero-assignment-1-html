@@ -96,14 +96,14 @@
     color: #151414;
 }
 
-.plan-wrap{
+.plan-wrap {
     display: flex;
     justify-content: space-around;
     margin: 50px 230px 130px;
-    
+
 }
 
-.item-heading{
+.item-heading {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px;
@@ -113,14 +113,46 @@
     color: #151414;
 }
 
-.item-des{
+.item-des {
     font-weight: 500;
-font-size: 25px;
-line-height: 29px;
-text-align: center;
-color: #737272;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
 }
 
-.plan-img{
+.plan-img {
     margin-left: 50px;
+}
+
+/* call now poster section styles */
+
+.call-poster-wrap {
+    width: 1140px;
+    height: 300px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),
+        url('/img/watch.png');
+    border-radius: 8px;
+    margin: 0 210px 100px 230px;
+}
+
+.call-poster-text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding: 59px 0 0 65px;
+}
+
+.call-btn{
+    height: 64px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: 0;
+    padding: 20px 26px;
+    margin: 24px 0 0 64px;
 }
